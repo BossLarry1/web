@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(/2022_10_10_09_15_IMG_1775.JPG) no-repeat center center/cover;
+    height: 600px;
+}
+
+.container ul li a{
+    text-decoration: none;
+    display: flex;
+    /* float: right; */
+    justify-content: space-around;
+    color: #fff;
+    padding: 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    /* float: left; */
+    padding: 10px;
+}
+
+.container ul {
+    list-style: none;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+   
+}
+
+.container ul li{
+    /* justify-content: space-around; */
+    margin-left: 50px;
+    /* float: right; */
+}
+
+.span{
+    color: green;
+}
+
+.logo{
+    padding: 7px;
+}
+
+.home{
+    background-color: green;
+}
+
+.container ul li a:hover{
+    background-color: green;
+    color: brown;
+}
+
+#btn{
+    margin-top: 300px;
+    color: #fff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+#btn h2{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.read{
+    text-decoration: none;
+    padding: 10px;
+    /* text-align: center; */
+    /* background: grey; */
+    display: flex;
+    justify-content: center;
+    /* margin-left: 550px;
+    margin-right: 550px;
+    margin-top: 20px;
+     */
+}
+
+.read a{
+    text-decoration: none;
+    color: aqua;
+    background: grey;
+    padding: 15px;
+}
+
+.read a:hover{
+    color: black;
+    background: green;
+}
